@@ -21,5 +21,5 @@ def predictDigits(data):
     n=clf.predict([data])
     print("予測",n)
 
-data=imageToData("2.png")
+data=imageToData("7.png")
 predictDigits(data)
